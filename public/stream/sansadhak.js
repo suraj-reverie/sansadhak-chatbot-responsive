@@ -8,7 +8,7 @@ function sansadhak(projectId, type = "web") {
   // const chatbotEndpoint = 'https://chat-sansadhak.reverieinc.com';
 
   // Local
-  const chatbotEndpoint = "https://3e76-2405-201-a405-e8b3-e91b-f462-b3a3-22da.ngrok-free.app";
+  const chatbotEndpoint = "https://sansadhak-chatbot-responsive.vercel.app/";
   // const sansadhakEndpoint = "http://localhost:5000";
   
   fetch(`${sansadhakEndpoint}/api/bot/deploy/details`, {
