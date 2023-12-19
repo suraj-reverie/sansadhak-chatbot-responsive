@@ -1431,7 +1431,7 @@ const App = () => {
       style={{
         backgroundColor: "#FCFCFC",
         boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.12)",
-        height: isMobile == true ? (isIOS ? (isChrome?'99vh':'89vh') : '93vh'):'',
+        height: isMobile == true ? (isIOS ? (isChrome?'99vh':'88vh') : '93vh'):'',
         width: isMobile == true ? "99vw" : "",
         overflow: "hidden",
         wordBreak: "break-all",
