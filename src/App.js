@@ -1591,13 +1591,13 @@ const App = () => {
           {expired && (
             <div
               style={{
-                position: "absolute", // or 'fixed' depending on your layout needs
-                bottom: "0",
-                left: "0",
-                right: "0",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
+                position: "fixed", // or 'fixed' depending on your layout needs
+                // bottom: "0",
+                // left: "0",
+                right: isMobile?"23%":"13%",
+                // display: "flex",
+                // justifyContent: "center",
+                // alignItems: "center",
                 // padding: "1em",
                 // backgroundColor: "rgba(0, 0, 0, 0.5)", // Semi-transparent background
                 zIndex: "1000", // Ensure it's above everything else
